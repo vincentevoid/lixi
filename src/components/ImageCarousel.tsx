@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Image from 'next/image'
+import ExportedImage from "next-image-export-optimizer";
 
 const images = ['/lixi.png', '/golden-tiger-eclipse-jade-hare-prosperity.png'];
 
@@ -21,7 +21,7 @@ function ImageCarousel() {
 
     return (
         <div className="imageContainer">
-            <Image src={images[currentIndex]} alt="Golden Tiger Eclipse, Jade Hare Prosperity" fill />
+            <ExportedImage src={images[currentIndex]} alt="Golden Tiger Eclipse, Jade Hare Prosperity" fill placeholder="empty" />
             <style jsx>{`
                 .imageContainer {
                     margin: 10px 0px 10px 0px;
