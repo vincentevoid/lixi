@@ -44,7 +44,7 @@ function App({ Component, pageProps }: AppProps) {
               <meta name="theme-color" content="#000000" />
               <link rel="apple-touch-icon" href="/logo192.png" />
               <link rel="manifest" href="/manifest.json" />
-              <title>Endproject</title>
+              <title>Lì Xì</title>
             </NextHead>
 
             {mounted && <Component {...pageProps} />}
