@@ -40,7 +40,7 @@ function App({ Component, pageProps }: AppProps) {
           >
             <NextHead>
               <link rel="icon" href="/favicon.ico" />
-              <meta name="viewport" content="width=600, initial-scale=1" />
+              <meta name="viewport" content="width=1000, initial-scale=1" />
               <meta name="theme-color" content="#000000" />
               <link rel="apple-touch-icon" href="/logo192.png" />
               <link rel="manifest" href="/manifest.json" />
