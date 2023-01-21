@@ -1,0 +1,17 @@
+@font-face{
+    font-family: 'SimSun';
+      src: url('/simsunb.ttf') format('truetype');
+}
+
+body {
+	margin-top: 0px;
+	font-family: 'SimSun';
+	background-color: #a71832;
+    color: #000000;
+}
+
+.button {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
