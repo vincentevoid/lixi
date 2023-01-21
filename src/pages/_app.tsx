@@ -55,7 +55,7 @@ function App({ Component, pageProps }: AppProps) {
       <style jsx global>{`
         @font-face{
           font-family: 'SimSun';
-            src: url('./simsunb.ttf') format('truetype');
+            src: url('/simsunb.ttf') format('truetype');
         }
         body{
           background-color: #a71832;
