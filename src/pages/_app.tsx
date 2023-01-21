@@ -39,11 +39,11 @@ function App({ Component, pageProps }: AppProps) {
             }}
           >
             <NextHead>
-              <link rel="icon" href="/favicon.ico" />
-              <meta name="viewport" content="width=1000" />
+              <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+              <meta name="viewport" content="device-width, initial-scale=.7" />
               <meta name="theme-color" content="#000000" />
-              <link rel="apple-touch-icon" href="/logo192.png" />
-              <link rel="manifest" href="/manifest.json" />
+              <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+              <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
               <title>Lì Xì</title>
             </NextHead>
 
