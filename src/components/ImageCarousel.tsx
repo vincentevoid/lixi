@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ExportedImage from "next-image-export-optimizer";
 
-const images = ['/lixi.png', '/golden-tiger-eclipse-jade-hare-prosperity.png'];
+const images = ['./lixi.png', './golden-tiger-eclipse-jade-hare-prosperity.png'];
 
 function ImageCarousel() {
     const [currentIndex, setCurrentIndex] = useState(0);
